@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- add icon in browser tab only for html and js projects -->
+        <link rel="shortcut icon" type="x-icon" href="logo.png">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify music</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- navbar -->
+        <nav>
+            <ul>
+                <li class="image"><img src="logo.png" alt="Spotify">Spotify</li>
+                <li>HOME</li>
+                <li>ABOUT</li>
+            </ul>
+        </nav>
+
+        <!-- main containt part -->
+        <div class="container">
+
+            <div class="songList">
+                <h1>Spotify Music - No Copyright Sounds</h1>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">let me down slowly</span>
+                        <!-- span use text to one line into cover image -->
+                        <span class="songPlayList"><span class="timeStamp">
+                                05:30 <i id="1"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">let me down slowly</span>
+                        <!-- span use text to one line into cover image -->
+                        <span class="songPlayList"><span class="timeStamp">
+                                05:30 <i id="2"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">let me down slowly</span>
+                        <!-- span use text to one line into cover image -->
+                        <span class="songPlayList"><span class="timeStamp">
+                                05:30 <i id="3"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">let me down slowly</span>
+                        <!-- span use text to one line into cover image -->
+                        <span class="songPlayList"><span class="timeStamp">
+                                05:30 <i id="4"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">let me down slowly</span>
+                        <!-- span use text to one line into cover image -->
+                        <span class="songPlayList"><span class="timeStamp">
+                                05:30 <i id="5"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">let me down slowly</span>
+                        <!-- span use text to one line into cover image -->
+                        <span class="songPlayList"><span class="timeStamp">
+                                05:30 <i id="6"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+
+        <!-- bottom part -->
+
+        <div class="bottom">
+            <input type="range" class="range" id="myProgressBar" min="0"
+                max="100" value="0">
+
+            <!-- fontawesome icons -->
+            <div class="icons">
+                <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+                <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+                <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+            </div>
+
+        </div>
+
+        <script src="https://kit.fontawesome.com/a7fadf19e4.js"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

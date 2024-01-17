@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+
+/* header body part */
+
+body {
+    background-color: rgb(215, 224, 250);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+
+
+/* navbar  */
+
+nav {
+    font-family: 'Assistant', sans-serif;
+}
+
+nav ul {
+    /* flex used ==> all items set horizontally */
+    display: flex;
+    align-items: center;
+    /* not show dot using list style */
+    list-style-type: none;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+.image img {
+    width: 30px;
+    padding: 0 10px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/* container part */
+
+.container {
+    min-height: 73vh;
+    background-color: black;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    font-size: small;
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/* container part ==> add songlist */
+
+.songItemContainer {
+    margin-top: 30px;
+}
+
+.songItem {
+    height: 60px;
+    display: flex;
+    background-color: white;
+    /* width: 100%; */
+    color: black;
+    margin: 18px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.songItem img {
+    margin-left: 5px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.timeStamp {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.timeStamp i {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* bottom part */
+
+.bottom {
+    position: sticky;
+    height: 80px;
+    background-color: transparent;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.fa-backward-step:hover {
+    color: black;
+}
+
+.fa-circle-play:hover {
+    color: black;
+}
+
+
+.fa-forward-step:hover {
+    color: black;
+}
+
+.icons i {
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#myProgressBar {
+    width: 90vw;
+    cursor: pointer;
+}
